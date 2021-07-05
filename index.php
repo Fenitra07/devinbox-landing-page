@@ -26,6 +26,10 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- SweatAlert -->
+  <script type="text/javascript" src="js/sweetalert2.all.js"></script>
+  <script type="text/javascript" src="js/sweetalert2.all.min.js"></script>
+
 </head>
 
 <body>
@@ -305,50 +309,50 @@
 
 
           <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form method="post" class="php-email-form" action="" method="POST" enctype="multipart/form-data">
+            <form method="post" class="php-email-form" action="mail/mail_contact.php" method="POST" enctype="multipart/form-data">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Name (*)</label>
-                  <input type="text" name="" class="form-control" id="" required>
+                  <input type="text" name="name" class="form-control" id="" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">First name (*)</label>
-                  <input type="text" class="form-control" name="" id="" required>
+                  <input type="text" class="form-control" name="firstname" id="" required>
                 </div>
               </div>
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Society (*)</label>
-                  <input type="text" name="" class="form-control" id="" required>
+                  <input type="text" name="society" class="form-control" id="" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Activity (*)</label>
-                  <input type="text" class="form-control" name="" id="" required>
+                  <input type="text" class="form-control" name="activity" id="" required>
                 </div>
               </div>
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Email (*)</label>
-                  <input type="email" name="" class="form-control" id="" required>
+                  <input type="email" name="email" class="form-control" id="" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Phone (*)</label>
-                  <input type="text" class="form-control" name="" id="" required>
+                  <input type="text" class="form-control" name="contact" id="" required>
                 </div>
               </div>
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Subject (*)</label>
-                  <input type="text" name="" class="form-control" id="" required>
+                  <input type="text" name="subject" class="form-control" id="" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Budget (*)</label>
-                  <input type="number" class="form-control" name="" id="" required placeholder="€">
+                  <input type="number" class="form-control" name="budget" id="" required placeholder="€">
                 </div>
               </div>
               <div class="form-group">
                 <button class="getFile" onclick="document.getElementById('getFile').click()">Attach one or more files</button>
-                <input id="getFile" type="file" style="display:none" class="form-control" name="" id="" placeholder="Attach one or more files">
+                <input id="getFile" type="file" style="display:none" class="form-control" name="getFile" id="" placeholder="Attach one or more files">
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
@@ -450,3 +454,5 @@
 </body>
 
 </html>
+
+<?php include("mail/mail_contact.php"); ?>
