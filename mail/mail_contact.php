@@ -12,7 +12,7 @@
 
 <?php
 
-	if (!empty($_POST['name']) && !empty($_POST['firstname']) && !empty($_POST['society'])&& !empty($_POST['activity'])&& !empty($_POST['contact']) && !empty($_POST['email']) && !empty($_POST['budget']) && !empty($_POST['budget']) && !empty($_POST["message"])) {
+	if (!empty($_POST['name']) && !empty($_POST['firstname']) && !empty($_POST['society'])&& !empty($_POST['activity'])&& !empty($_POST['contact']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['budget']) && !empty($_POST["message"])) {
 
 	$name = $_POST['name'];
 	$firstname = $_POST['firstname'];
@@ -22,8 +22,18 @@
 	$email = $_POST['email'];
   $subject = $_POST['subject'];
   $budget = $_POST['budget'];
+  // $upload = $_POST['upload'];
 	$message = $_POST['message'];
 	$objet = "Landing-page";
+
+// FILE UPLOAD
+  // $file = rand(1000,100000)."-".$_FILES['upload']['name'];
+  // $file_loc = $_FILES['upload']['tmp_name'];
+  // $file_size = $_FILES['upload']['size'];
+  // $file_type = $_FILES['upload']['type'];
+  // $folder="upload/";
+
+// var_dump($upload);die();
 
 	include("setting_mail.php");
 
@@ -43,7 +53,7 @@ try {
 	$mail->setFrom($email, $name);
 	$mail->AddAddress("devinbox.contact@gmail.com");
 	$mail->Subject = ("$objet ($subject)");
-	$mail->Body = "<b>Name : </b>".$name."<br>"."<b>Firstname : </b>".$firstname."<br>". "<b>Society : </b>".$society."<br>". "<b>Activity : </b>".$activity."<br>". "<b>Contact : </b>".$contact."<br>". "<b>Email :</b> ".$email."<br>"."<b>Subject :</b> ".$subject. "<br>"."<b>Budget :</b> ".$budget." €". "<br>"."<br><b>Message :</b> ".$message;
+	$mail->Body = "<b>Name : </b>".$name."<br>"."<b>Firstname : </b>".$firstname."<br>". "<b>Society : </b>".$society."<br>". "<b>Activity : </b>".$activity."<br>". "<b>Contact : </b>".$contact."<br>". "<b>Email :</b> ".$email."<br>"."<b>Subject :</b> ".$subject. "<br>"."<b>Budget :</b> ".$budget." €". "<br>". "<br><b>Message :</b> ".$message;
 
 
 	} catch (Exception $e) {

@@ -34,6 +34,10 @@
 
 <body>
 
+  <!-- Cookies -->
+  <?php
+  include("cookie.php");
+   ?>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
@@ -350,10 +354,10 @@
                   <input type="number" class="form-control" name="budget" id="" required placeholder="€">
                 </div>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <button class="getFile" onclick="document.getElementById('getFile').click()">Attach one or more files</button>
-                <input id="getFile" type="file" style="display:none" class="form-control" name="getFile" id="" placeholder="Attach one or more files">
-              </div>
+                <input id="getFile" type="file" style="display:none" class="form-control" name="upload" id="" placeholder="Attach one or more files">
+              </div> -->
               <div class="form-group">
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="7" required></textarea>
