@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+
+.animated {
+  width: 600px;
+  height: 500px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {transform: translateY(15px);}
+  100% {transform: translateY(-10px);}
+}
+
+div {
+  background-color:#62846A;
+}
+
+  </style>
+</head>
+<body>
+
+<div>
+  <section id="hero" data-aos="zoom-in" data-aos-delay="200">
+    <img src="assets/img/hero-img.png" class="animated" alt="">
+  </section>
+</div>
+
+</body>
+</html>

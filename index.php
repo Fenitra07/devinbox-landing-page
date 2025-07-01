@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 		$uri = 'https://';
@@ -9,3 +10,467 @@
 	exit;
 ?>
 Something is wrong with the XAMPP installation :-(
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Devinbox</title>
+
+  <!-- Favicons -->
+  <link href="assets/favicon/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- SweatAlert -->
+  <script type="text/javascript" src="js/sweetalert2.all.js"></script>
+  <script type="text/javascript" src="js/sweetalert2.all.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Cookies -->
+  <?php
+  include("cookie.php");
+   ?>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Devinbox</a></h1>
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#services">Why us</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Let's reinvent your business together</h1>
+          <h2>The best option for tailor-made development</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#contact" class="btn-get-started scrollto">Get Started</a>
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+  <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Whatever your needs, our team is at your disposal for your digital projects. A warranty and possible maintenance follow the development phase.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box featured">
+              <h3>Landing page</h3>
+              <h4><sup>€</sup>250<span>Starter Pack</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Product & service presentation</li>
+                <li><i class="bx bx-check"></i> Page under construction</li>
+                <li><i class="bx bx-check"></i> Subscription page</li>
+                <li><i class="bx bx-check"></i> Photos & Videos</li>
+                <li><i class="bx bx-check"></i> Contact form</li>
+              </ul>
+              <a class="buy-btn scrollto" href="#contact">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Showcase site</h3>
+              <h4><sup>€</sup>550<span>Starter Pack</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Home page</li>
+                <li><i class="bx bx-check"></i> Landing page</li>
+                <li><i class="bx bx-check"></i> About page</li>
+                <li><i class="bx bx-check"></i> Contact page</li>
+                <li><i class="bx bx-check"></i> Newsletter</li>
+                <!-- <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li> -->
+              </ul>
+              <a class="buy-btn scrollto" href="#contact">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box featured">
+              <h3>Blog</h3>
+              <h4><sup>€</sup>650<span>Starter Pack</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Home page</li>
+                <li><i class="bx bx-check"></i> Landing page</li>
+                <li><i class="bx bx-check"></i> Article page filtered by category</li>
+                <li><i class="bx bx-check"></i> Secure back-office</li>
+                <li><i class="bx bx-check"></i> Contact page & Newsletter</li>
+              </ul>
+              <a class="buy-btn scrollto" href="#contact">Get Started</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="box featured">
+              <h3>Booking platform</h3>
+              <h4><sup>€</sup>850<span>Starter Pack</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Home page</li>
+                <li><i class="bx bx-check"></i> Landing page</li>
+                <li><i class="bx bx-check"></i> Submission form</li>
+                <li><i class="bx bx-check"></i> Payment method integration</li>
+                <li><i class="bx bx-check"></i> Confirmation message</li>
+                <li><i class="bx bx-check"></i> Automatic billing</li>
+                <li><i class="bx bx-check"></i> Secure back-office</li>
+                <li><i class="bx bx-check"></i> Contact page & Newsletter</li>
+                <li><i class="bx bx-check"></i> General conditions of sale page</li>
+                <li><i class="bx bx-check"></i> Legal notice and privacy policy</li>
+                <li class="na"><i class="bx bx-x"></i> <span>Calendar</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Booking a date</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Multi-user</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>User pages</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Manage access and permissions</span></li>
+              </ul>
+              <a class="buy-btn scrollto" href="#contact">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>E-commerce</h3>
+              <h4><sup>€</sup>1.500<span>Starter Pack</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Home page</li>
+                <li><i class="bx bx-check"></i> Landing page</li>
+                <li><i class="bx bx-check"></i> Product page by category</li>
+                <li><i class="bx bx-check"></i> Advanced filter</li>
+                <li><i class="bx bx-check"></i> Shopping cart</li>
+                <li><i class="bx bx-check"></i> Submission form</li>
+                <li><i class="bx bx-check"></i> Payment method integration</li>
+                <li><i class="bx bx-check"></i> Confirmation message</li>
+                <li><i class="bx bx-check"></i> Automatic billing</li>
+                <li><i class="bx bx-check"></i> Testimonials</li>
+                <li><i class="bx bx-check"></i> Contact page & Newsletter</li>
+                <li><i class="bx bx-check"></i> General conditions of sale page</li>
+                <li><i class="bx bx-check"></i> Legal notice and privacy policy</li>
+              </ul>
+              <a class="buy-btn scrollto" href="#contact">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box featured">
+              <h3>Custom-built platform</h3>
+              <h4><sup>€</sup>5.000<span>Starter Pack</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> ex. Online payment service</li>
+                <li><i class="bx bx-check"></i> ex. Project Management System</li>
+                <li><i class="bx bx-check"></i> ex. Business Process Digitization</li>
+                <li><i class="bx bx-check"></i> ex. Web portal</li>
+                <li><i class="bx bx-check"></i> ex. Forum</li>
+                <li><i class="bx bx-check"></i> ex. Online library</li>
+                <li><i class="bx bx-check"></i> ex. Search engine</li>
+                <li><i class="bx bx-check"></i> ex. Messaging</li>
+              </ul>
+              <a class="buy-btn scrollto" href="#contact">Get Started</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="services" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>The best option <strong>for tailor-made development</strong></h3>
+              <p>
+                Whatever your needs, our team is at your disposal for your digital projects. We use the latest and most suitable technologies to offer you the best development experience. A warranty and possible maintenance follow the development phase.
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Conceptualization <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      Collection of needs and definition of the action plan
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Development <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Project implementation, test phases, feedback and continuous improvement
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Launch phase <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Delivery with warranty and possible maintenance
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+ <!--    <section id="skills" class="skills skills_section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+
+    <!-- ======= Cta Section ======= -->
+<!--     <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Request a quote</h2>
+          <p>Get a quote by filling out the form below :</p>
+        </div>
+
+        <div class="row">
+
+
+
+          <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form method="post" class="php-email-form" action="mail/mail_contact.php" method="POST" enctype="multipart/form-data">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Name (*)</label>
+                  <input type="text" name="name" class="form-control" id="" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">First name (*)</label>
+                  <input type="text" class="form-control" name="firstname" id="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Society (*)</label>
+                  <input type="text" name="society" class="form-control" id="" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Activity (*)</label>
+                  <input type="text" class="form-control" name="activity" id="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Email (*)</label>
+                  <input type="email" name="email" class="form-control" id="" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Phone (*)</label>
+                  <input type="text" class="form-control" name="contact" id="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Subject (*)</label>
+                  <input type="text" name="subject" class="form-control" id="" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Budget (*)</label>
+                  <input type="number" class="form-control" name="budget" id="" required placeholder="€">
+                </div>
+              </div>
+              <!-- <div class="form-group">
+                <button class="getFile" onclick="document.getElementById('getFile').click()">Attach one or more files</button>
+                <input id="getFile" type="file" style="display:none" class="form-control" name="upload" id="" placeholder="Attach one or more files">
+              </div> -->
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="7" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our Newsletter to be informed of our latest offers</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Devinbox</h3>
+            <p>
+              Lot 37 bis <br>
+              Soamiampita Itaosy<br>
+              Antananarivo, Madagascar <br><br>
+              <strong>Phone:</strong> +261 34 40 117 55 <br>
+              <strong>Email:</strong> devinbox.contact@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links"></div>
+
+          <div class="col-lg-3 col-md-6 footer-links"></div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Contact us directly on social networks :</p>
+            <div class="social-links mt-3">
+              <a target="_blank" href="https://web.facebook.com/Devinbox-112170117151430/?" class="facebook"><i class="bx bxl-facebook" ></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/49147337/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a target="_blank" href="https://join.skype.com/invite/DVzVjmoEYePm" class="skype"><i class="bx bxl-skype" ></i></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=261344011755" class="whatsapp"><i class="bx bxl-whatsapp" ></i></a>
+              <a target="_blank" href="https://telegram.me/Devinbox" class="telegram"><i class="bx bxl-telegram" ></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Devinbox</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a target="_blank" href="https://www.dev-inbox.com">www.dev-inbox.com</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+<?php include("mail/mail_contact.php"); ?>
+>>>>>>> d5e9272921ac255f4741e49b05b9177ba0969f3c
